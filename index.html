@@ -15,7 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Meera+Inimai&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
 </head>
 
@@ -25,21 +26,30 @@
                 <div class="conteiner"><h1><p class="text1" href="">My Logo</p></h1></div>
 
                 
-                <div class="menu_hamburguera">        
-                            
-                            <i class="fas fa-bars menu-icon" id="menu-icon"></i>
-                            <script src="scrips/apps.js"></script>
+                <div class="menu_hamburguera">
+                
+                <i class="fas fa-bars menu-icon" id="menu-icon"></i>
+                
+                </div>        
+                         
+                <div class="icono_gmail">
 
-                            <div class="menu" id="menu">
-                                <div class="menu2" id = "menu2">                                
-                                <a href="#portafolio">Potafolio</a>
-                                <a href="#about">About</a>
-                                <a href="#contact">Contact</a></div>
+                <i class="fa-solid fa-envelope"></i>
 
-                            </div>
                 </div>
                 
 
+                            <div class="menu" id="menu">
+                                <div class="menu2">                                
+                                <a href="#portafolio">Potafolio</a>
+                                <a href="#about">About</a>
+                                <a href="#contact">Contact</a>
+                                
+                                
+                                </div>    
+                            </div>
+
+                
     </header>
 
 
@@ -364,9 +374,14 @@
                                     <p class="C">API Design</p>
                                     <p class="C">Web Development</p>
                                     </div>
-                                </div> 
-                                
+                                </div>  
                         </div>
+
+                    </footer>
+
+
+
+                        <form action="" method="POST" id="form">
 
                         <div class="container_white">
 
@@ -376,13 +391,19 @@
 
                             <div class="conatiner_email">
 
-                                <button class="button_email" id="Get_in_touch"><p class="text_buttom_email">Get in touch</p></button>
-                                
-                                <div class="container_name">Full name</div>
-                                <div class="email">Email address</div>
-                                <div class="Write">Write me something...</div>
-                                <div class="raya1"></div>
-                                <div class="raya2"></div>
+                                <button class="button_email" type="submit"><p class="text_buttom_email">Get in touch</p></button>
+
+                                <p class="warnings" id="warnings"></p>
+
+                                <div class="container_name">Full name
+                                    <input type="Name" id="name" required>
+                                </div>
+                                <div class="email">Email address
+                                    <input type="email" id="Email" required>
+                                </div>
+                                <div class="Write">Write me something...
+                                    <input type="write" id="Write">
+                                </div>
 
                                 <div class="container_iconos_footer"></div>
 
@@ -402,22 +423,28 @@
 
                                 </div>
 
-
+                                
                                 
                             </div>
-
+                                    
                         </div>
 
 
 
+                        </form>
 
-                    </div>
 
-                </footer>
+
+
+
+                    
+
+                
                 
         
                          <script src="scrips/modal.js"></script>
-                        
+                         <script src="scrips/apps.js"></script>
+                        <script src="scrips/Formularios.js"></script>
 
     
 </body>

@@ -1,6 +1,8 @@
 document.getElementById('menu-icon').addEventListener('click', function(){
 
-    let menu = document.getElementById('menu', 'menu2');
+    let menu = document.getElementById('menu');
+
+
 
     if (menu.style.display === 'block') {
 
@@ -10,6 +12,21 @@ document.getElementById('menu-icon').addEventListener('click', function(){
 
         menu.style.display = 'block';
     }
+        
+
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

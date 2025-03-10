@@ -13,9 +13,15 @@ form.addEventListener("submit", e=>{
     let regexEmail = /^[^\W_]+\w*(?:[.-]\w*)*[^\W_]+@[^\W_]+(?:[.-]?\w*[^\W_]+)*(?:\.[^\W_]{2,3})$/
     let entrar= false
     parrafo.innerHTML=""
-    if (name.value.length > 10) {
+    if (name.value.length > 30) {
 
         warnings+= `El nombre no es valido <br>`
+        entrar = true
+    }
+
+    if (write.value.length > 500) {
+
+        warnings+= `Son muchos caracteres <br>`
         entrar = true
     }
     console.log(regexEmail.test(email.value))
@@ -31,5 +37,7 @@ form.addEventListener("submit", e=>{
         parrafo.innerHTML = warnings
         
     }
+
+
 
 })

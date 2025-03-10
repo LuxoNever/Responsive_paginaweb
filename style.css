@@ -262,7 +262,7 @@ h1{
 
 .container_sons2{
 
-    border: 1px solid red; 
+    border: 1px solid rgba(255, 0, 0, 0); 
     margin-top: 80px;
     width: 100%;
     height: 218.4rem;     
@@ -278,7 +278,7 @@ h1{
 
 .container_text{
 
-    border: 1px solid rgb(255, 0, 0);
+    border: 1px solid rgba(255, 0, 0, 0);
     width: 310px;
     height: 350px;
     margin-left: 24px;
@@ -930,7 +930,7 @@ h1{
     background-color: rgba(28, 26, 25, 1);
     width: 100%;
     height: 125.4rem;
-    margin-top: 401px;
+    margin-top: 501px;
     background-image: url(img/Frame.png);
     background-size: 200px;
     background-position: 170px;
@@ -1472,6 +1472,15 @@ footer .fa-medium{
         line-height: 42px;
 
     }
+
+
+
+    .footer_body{
+
+        margin-top: 10px;
+
+
+    }
     .sub_container_text1{
 
         position: absolute;
@@ -1522,14 +1531,41 @@ footer .fa-medium{
         height: 1805px;
     }
 
-    .Card_works_1{
 
-       display: none;
+    .grid{
+
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Distribuye las tarjetas en columnas */
+        top: 50px;
+        justify-content: center;
+        left: -15px;
+        border: 1px solid rgba(255, 0, 0, 0);
+        width: 1190px;
+        
+    }
+
+
+    .grid2 {
+
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Distribuye las tarjetas en columnas */
+        top: 50px;
+        justify-content: center;
+        left: -15px;
+        border: 1px solid rgba(255, 0, 0, 0);
+        width: 1190px;
 
     }
-    .button_decoration_cards{
 
+
+
+    
+    .button_decoration_cards{
         display: none;
+
+
     }
 
     .menu_hamburguera{

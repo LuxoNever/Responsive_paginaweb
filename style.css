@@ -759,6 +759,8 @@ h1{
 }
 
 
+
+
 .Card_works_1{
 
     position:relative;
@@ -793,8 +795,6 @@ h1{
     height: 260px;
     margin-top: 64px;
     left: -3px;
-
-
 }
 
 
@@ -900,7 +900,7 @@ h1{
 
 
 
-.button_decoration_cards{
+.card_buton{
 
     border: 1px solid rgba(245, 88, 0, 1);;
     background-color: rgba(245, 88, 0, 1);
@@ -910,6 +910,28 @@ h1{
     width: 327px;
     height: 48px;
     border-color: rgba(255, 107, 0, 1);
+    font-family: "Inter", serif;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    text-align: center;
+
+}
+
+.button_decoration_cards{
+
+    opacity: 0;
+    border: 1px solid rgba(245, 88, 0, 1);;
+    background-color: rgba(245, 88, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    height: 48px;
+    border-color: rgba(255, 107, 0, 1); 
 }
 
 .text_buttom_2{
@@ -1763,7 +1785,27 @@ footer .fa-medium{
 
     }
 
+    .container_titulo{
 
+        opacity: 1;
+        transition: .3s ease;
+        
+    }
+
+    .container_titulo:hover{
+        
+        opacity: 0;
+        cursor: pointer;
+
+
+    }
+    
+
+    .card_buton{
+        display: none;
+    }
+
+ 
 
 
     .Card_works_1{
@@ -1799,13 +1841,19 @@ footer .fa-medium{
 
     }
 
+    .Card_works_1:hover .button_decoration_cards{
 
+        opacity: 1;
+    
+    }
     
 
     .button_decoration_cards{
         
-
-
+        margin-top: 12px;
+        position: absolute; 
+        transition: .5s ease;
+        opacity:0;
     }
 
     .menu_hamburguera{

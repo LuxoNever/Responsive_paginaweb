@@ -6,6 +6,9 @@ var btn = document.getElementById("seeProject");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
+
+modal.style.display = "none";
+
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
@@ -17,7 +20,6 @@ span.onclick = function() {
   modal.style.display = "none";
 
 }
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {

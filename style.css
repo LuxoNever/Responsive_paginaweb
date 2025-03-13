@@ -1388,7 +1388,6 @@ footer .fa-medium{
 @media (min-width:1349px){
 
 
-
     
 
     .conteiner2{
@@ -1397,6 +1396,7 @@ footer .fa-medium{
         background-image: url(img/Illustration-header.png);
         background-position-x: 903.8px;
         background-position-y: -75px;
+        background-size: 680px;
         width: 1003px;
         height: 770px;
         

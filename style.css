@@ -97,8 +97,15 @@ h1{
     background-color: #3c3b3a;
 }
 
+.grid2{
 
+    margin-left: -15px;
+}
 
+.grid{
+    margin-left: -15px;
+
+}
 
 .conteiner2{
 
@@ -109,7 +116,7 @@ h1{
     background-position-x: 210px;
     background-repeat: no-repeat;
     background-color: rgba(28, 26, 25, 1);
-    border: 1px solid rgba(207, 4, 4, 0);
+    
     height: 590px;
     padding-top: 120px; 
     padding-left: 24px;
@@ -117,7 +124,6 @@ h1{
 
 .text2{
     color: rgba(255, 107, 0, 1);
-    border: 1px solid rgba(28, 26, 25, 1);
     width: 327px;
     height: 124px;
     font-family: "Crete Round", serif;
@@ -129,9 +135,9 @@ h1{
 
 .text3{
     color: rgba(255, 245, 225, 1);
-    border: 1px solid rgba(28, 26, 25, 1);
+    
     margin-top: -50px;
-    width: 327px;
+    width: 310px;
     height: 27px;
     font-family: "Roboto", serif;
     font-weight: 700;
@@ -143,8 +149,7 @@ h1{
 
 .text4{
     color: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(204, 12, 12, 0);
-    width: 327px;
+    width: 317px;
     height: 123px;
     font-family: "Poppins", serif;
     font-weight: 400;
